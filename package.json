@@ -1,0 +1,56 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "Тестовый проект на стажировку ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "start": "node server/server.js",
+    "dev": "webpack --mode development && node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kosteyyy/eCommerce_LAD.git"
+  },
+  "keywords": [
+    "ecommerce"
+  ],
+  "author": "averkiev_konstantin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kosteyyy/eCommerce_LAD/issues"
+  },
+  "homepage": "https://github.com/Kosteyyy/eCommerce_LAD#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.3",
+    "@babel/core": "^7.17.4",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.6.0",
+    "redux-devtools-extension": "^2.13.9",
+    "source-map-loader": "^3.0.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.69.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.2",
+    "node-fetch": "^3.2.0",
+    "nodemon": "^2.0.15",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "styled-components": "^5.3.3",
+    "uuid": "^8.3.2"
+  }
+}
